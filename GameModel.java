@@ -7,7 +7,7 @@ abstract class GameModel{
 
    abstract void takeTurn(int t1, int t2);        
    abstract boolean gameOverStatus();
-   abstract String get(int r, int c); 
+   abstract int get(int r, int c); 
    abstract int getRows();
    abstract int getCols(); 
    abstract void display();      
