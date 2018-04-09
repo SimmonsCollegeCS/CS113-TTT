@@ -78,8 +78,8 @@ public class TTTModel extends GameModel{
          return(false);}
    }//game over
    
-   public String get(int r, int c){
-      return(shown[r*3+c]);
+   public int get(int r, int c){
+      return(r*3+c);
    }//gets shown string
          
    int getRows(){
